@@ -1,5 +1,19 @@
-100.0,food
-150.0,food
-120.0,dress
-200.0,Travel
-250.0,Travel
+This program is a simple Python Expense Tracker used to record and manage daily expenses.
+
+It is created using a class named ExpenseTracker which contains all the expense-related functions.
+
+In the __init__() method, a file named "expenses.txt" is initialized to store all expense data.
+
+The add_expense() method takes the amount and category as input from the user and saves them in the file in comma-separated format (amount, category).
+
+The view_expenses() method reads the file and displays all stored expenses in a formatted way.
+
+The total_expense() method calculates the total expense by reading all amounts from the file and adding them together.
+
+The category_summary() method uses a dictionary to calculate and display total expenses for each category separately.
+
+The program uses exception handling (try-except) to manage errors like invalid input or missing file.
+
+A while loop is used to create a menu-driven system that allows the user to choose different options until they select Exit.
+
+Overall, this project demonstrates object-oriented programming, file handling, loops, dictionaries, and exception handling in Python.
