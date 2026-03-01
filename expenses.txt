@@ -1,0 +1,5 @@
+100.0,food
+150.0,food
+120.0,dress
+200.0,Travel
+250.0,Travel
